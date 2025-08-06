@@ -5,6 +5,7 @@
 .cart-items-title{
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
     color: gray;
     font-size: max(1vw,12px);
 }
@@ -12,6 +13,7 @@
 .cart-items-item{
     margin: 10px 0px;
     color: black;
+    align-items: center;
 }
 
 .cart-items-item img{
@@ -26,6 +28,16 @@
 
 .cart-items-item .cross{
     cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff6b6b;
+    padding: 5px;
+    border-radius: 50%;
+    min-width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cart-bottom{
